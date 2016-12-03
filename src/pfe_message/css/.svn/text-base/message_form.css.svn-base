@@ -1,0 +1,68 @@
+<style>
+#encadrer
+{
+	width="800px";
+	height="600px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#bbbbbb;
+	color:#111111;
+	text-align:center; 
+	
+}
+.liste_destinataire
+{
+	width="600px";
+	height="50";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#666666;
+	color:#111111;
+	text-align:center; 
+	
+}
+.objet
+{
+	width="650px";
+	height="50";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	clear:both;
+	background-color:#999999;
+	color:#111111;
+	text-align:center; 
+	
+}
+.corps
+{
+	width="700px";
+	height="400";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	clear:both;
+	background-color:#aa9999;
+	color:#111111;
+	text-align:center; 
+	
+}
+.b_envoyer
+{
+	width="700px";
+	height="50px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	clear:both;
+	background-color:#aa9999;
+	color:#111111;
+	text-align:center; 
+	
+}
+
+
+</style>
+

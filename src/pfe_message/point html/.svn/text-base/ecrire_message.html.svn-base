@@ -1,0 +1,69 @@
+<html>
+
+<head>
+	
+<link  href="./message.css" rel="stylesheet" type="text/css"/>	
+</head>
+
+<style>
+#encadrer
+{
+	width="800px";
+	height="600px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#bbbbbb;
+	color:#111111;
+	text-align:center; 
+	
+}
+.liste_destinataire
+{
+	width="600px";
+	height="50";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#666666;
+	color:#111111;
+	text-align:center; 
+	
+}
+.objet
+{
+	width="650px";
+	height="50";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	clear:both;
+	background-color:#999999;
+	color:#111111;
+	text-align:center; 
+	
+}
+
+
+</style>
+
+
+
+
+
+<body>
+	
+<div id="encadrer">
+	<div class="liste_destinataire">  Destinataire(s) : 
+		<textarea cols="55"  ></textarea>
+	</div>
+	<div class="objet" > Objet du message :
+		<input type="text" maxlength="400px" cols="55"  />
+	</div>
+
+
+</div>
+
+
+</body> 
+</html>

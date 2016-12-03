@@ -1,0 +1,508 @@
+<html>
+
+        <head>
+                <title>Welcome in Arcane Steam</title>
+
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+
+<style type="text/css">
+
+a img { border:none;}
+
+body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        margin: 0 ;
+        font-size: 80%;
+        font-weight: bold;
+        background: #000000;
+	  background-image:url(images/back.jpg);
+	  background-repeat: no-repeat;
+	  position:absolute;
+
+        }
+
+ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+
+
+
+/* menu */
+
+.menu9 {
+        width: 182px;
+        margin: 3px;
+	  float:left;
+	filter:alpha(opacity=65);
+	-moz-opacity:0.65;
+	opacity: 0.65;
+
+        }
+
+.menu9 li a {
+          height: 32px;
+          voice-family: "\"}\"";
+          voice-family: inherit;
+          height: 24px;
+        text-decoration: none;
+        }
+
+
+.menu9 li a:link, .menu9 li a:visited {
+        color: #383736;
+        display: block;
+        background: url(images/menu9.gif);
+        padding: -8px 0 0 10px;
+        }
+
+.menu9 li a:hover, .menu9 li #current {
+        color: #ffffff;
+        background: url(menu9.gif) 0 -32px;
+        padding: -8px 0 0 10px;
+        }
+
+.menu9 li a:active {
+        color: #fff;
+        background: url(menu9.gif) 0 -64px;
+        padding: -8px 0 0 10px;
+        }
+
+
+
+/* Bords arrondis */
+
+			.block_1
+			{
+				background-color:#666666;
+				width:580px;
+				height: 310px;
+				border:#FF0000 2px solid;
+				margin:0 auto;
+			}
+
+			.block_11
+			{
+				float:left;
+				width:10px;
+				height:10px;
+				background-image: url(images/hg.jpg);
+				background-repeat: no-repeat;
+
+			}
+
+			.block_12
+			{
+				float:right;
+				width:10px;
+				height:10px;
+				background-image: url(images/hd.jpg);
+				background-repeat: no-repeat;
+			}
+
+			.block_21
+			{
+				float:left;
+				width:10px;
+				height:10px;
+				background-image: url(images/bg.jpg);
+				background-repeat: no-repeat;
+			}
+
+			.block_22
+			{
+				float:right;
+				width:10px;
+				height:10px;
+				background-image: url(images/bd.jpg);
+				background-repeat: no-repeat;
+			}
+
+
+</style>
+  
+
+<title>Acceuil</title>
+
+
+<style type="text/css">
+.logo
+{ 
+	border:0px;
+	border-style:solid;
+	width:1020px;
+	height:200px;
+	background-image: url(images/logocss1.jpg);
+	background-repeat: no-repeat;
+	
+
+}
+
+.stat
+{
+	float:left;
+	border:0px;
+	border-style:solid;
+	width:590px;
+	height:100px;
+	margin:3px; 
+	background-color: #7d8695;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity: 0.75;
+
+} 
+
+
+
+.menu
+{
+	float:left;
+	border:0px;
+	border-style:solid;
+	width:182px;
+	height:300px;
+	margin:2px;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity: 0.75;
+
+}
+
+.news
+{
+	float:left;
+	border:0px;
+	border-style:solid;
+	width:700px;
+	height:290px; 
+	background-image: url(.gif);
+	background-repeat: no-repeat;
+	margin-left:50px;
+	background-color: #000000;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity: 0.75;
+
+}
+
+.news_c
+{
+	width:580px;
+	height:290px;
+	overflow:auto; 
+}
+
+.conteneur
+{
+	width:980px;
+
+}
+
+#footer
+{ 
+	border:0px;
+	border-style:solid;
+	width:1000px;
+	height:10px;
+	background-color:;
+	color:#000000;
+	background-repeat: no-repeat;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity: 0.75;
+	font-size:10px;
+	position:absolute;
+	bottom: 0px;
+<html>
+
+        <head>
+                <title>Welcome to Arcane Steam</title>
+                
+<style type="text/css">
+
+body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        margin: 0 ;
+        font-size: 80%;
+        font-weight: bold;
+        background: #000000;
+	  background-image:url(images/back.jpg);
+	  background-repeat: no-repeat;
+	  position:absolute;
+
+        }
+
+ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+
+
+
+/* menu */
+
+.menu9 {
+        width: 182px;
+        margin: 3px;
+	  float:left;
+	filter:alpha(opacity=65);
+	-moz-opacity:0.65;
+	opacity: 0.65;
+
+        }
+
+.menu9 li a {
+          height: 32px;
+          voice-family: "\"}\"";
+          voice-family: inherit;
+          height: 24px;
+        text-decoration: none;
+        }
+
+
+.menu9 li a:link, .menu9 li a:visited {
+        color: #383736;
+        display: block;
+        background: url(images/menu9.gif);
+        padding: -8px 0 0 10px;
+        }
+
+.menu9 li a:hover, .menu9 li #current {
+        color: #ffffff;
+        background: url(menu9.gif) 0 -32px;
+        padding: -8px 0 0 10px;
+        }
+
+.menu9 li a:active {
+        color: #fff;
+        background: url(menu9.gif) 0 -64px;
+        padding: -8px 0 0 10px;
+        }
+
+
+
+/* Bords arrondis */
+
+			.block_1
+			{
+				background-color:#666666;
+				width:580px;
+				height: 310px;
+				border:#FF0000 2px solid;
+				margin:0 auto;
+			}
+
+			.block_11
+			{
+				float:left;
+				width:10px;
+				height:10px;
+				background-image: url(images/hg.jpg);
+				background-repeat: no-repeat;
+
+			}
+
+			.block_12
+			{
+				float:right;
+				width:10px;
+				height:10px;
+				background-image: url(images/hd.jpg);
+				background-repeat: no-repeat;
+			}
+
+			.block_21
+			{
+				float:left;
+				width:10px;
+				height:10px;
+				background-image: url(images/bg.jpg);
+				background-repeat: no-repeat;
+			}
+
+			.block_22
+			{
+				float:right;
+				width:10px;
+				height:10px;
+				background-image: url(images/bd.jpg);
+				background-repeat: no-repeat;
+			}
+
+
+</style>
+  
+
+<title>Acceuil</title>
+
+
+<style type="text/css">
+.logo
+{ 
+	border:0px;
+	border-style:solid;
+	width:1020px;
+	height:200px;
+	background-image: url(images/logocss1.jpg);
+	background-repeat: no-repeat;
+	
+
+}
+
+.stat
+{
+	float:left;
+	border:0px;
+	border-style:solid;
+	width:590px;
+	height:100px;
+	margin:3px; 
+	background-color: #7d8695;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity: 0.75;
+
+} 
+
+
+
+.menu
+{
+	float:left;
+	border:0px;
+	border-style:solid;
+	width:182px;
+	height:300px;
+	margin:2px;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity: 0.75;
+
+}
+
+.news
+{
+	float:left;
+	border:0px;
+	border-style:solid;
+	width:700px;
+	height:290px; 
+	background-image: url(.gif);
+	background-repeat: no-repeat;
+	margin-left:50px;
+	background-color: #7d8695;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity: 0.75;
+
+}
+
+.news_c
+{
+	width:580px;
+	height:290px;
+	overflow:auto; 
+}
+
+.conteneur
+{
+	width:980px;
+
+}
+
+#footer
+{ 
+	border:0px;
+	border-style:solid;
+	width:1000px;
+	height:10px;
+	background-color:;
+	color:#000000;
+	background-repeat: no-repeat;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity: 0.75;
+	font-size:10px;
+	position:absolute;
+	bottom: 0px;
+	top: 520px
+
+
+
+}
+
+.clear{
+	clear:both;
+}
+
+
+
+</style>
+
+
+
+</head>
+<div class="conteneur">
+
+<div align="center" class="logo" >  </div>
+
+	
+<div class="menu9" > 
+	<ul>
+
+	<li><a href="http://arcane-steam.com/DEV/design/index.htm">Login</a></li>
+	<li><a href="http://arcanis.project.free.fr/Forums/">Forum</a></li>
+	<li><a href="http://arcane-steam.com/DEV/design/screenshot.htm">Screenshot</a></li>
+	<li><a href="http://arcane-steam.com/DEV/design/stats.htm">Statistiques</a></li>
+	<li><a href="http://arcane-steam.com/DEV/design/artworks.htm">Artworks</a></li>
+	<li><a href="http://arcane-steam.com/DEV/design/contact.htm">Contact</a></li>
+	<li><a href="http://arcane-steam.com/DEV/design/liens.htm">Liens</a></li>
+
+	</ul>
+</div>
+
+
+<div class="news">
+
+<a href="images/ange.jpg" rel="lightbox[artwork]" title="Arcanis Team 2006"><img width="700" src="./images/ange1.jpg" alt="Ange" class="reflect"/></a>
+<a href="images/lion.jpg"  rel="lightbox[artwork]" title="Arcanis Team 2006"><img width="700" src="./images/lion1.jpg" alt="Ange" class="reflect"/></a>
+</div>
+
+		
+
+
+
+
+
+
+<div class="clear"></div>
+
+<div class="clear"></div>
+</div>
+	
+		
+		
+
+		
+		
+		
+		
+
+		
+		
+
+<div id="footer">
+  <center>
+    <FONT SIZE=1>&copy; Sebastien lagoutte . Azull . Goil . Nexus . Backspace . Kalliser . Widx* // 2006-2008 // Version 1.0 // <a href="http://www.etna-alternance.net/v1/"><FONT COLOR="#FF9900">&eacute;cole ETNA alternance </a></FONT>
+  </center>
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,1 @@
+&copy; Arcanis 2006

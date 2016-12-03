@@ -1,0 +1,152 @@
+<html>
+
+<head>
+	
+<link  href="./message.css" rel="stylesheet" type="text/css"/>	
+</head>
+
+<style>
+#div_1
+{
+	border-width:1px;
+	border-style:solid;
+	width:850px;
+	float:left;
+	background-color:#049eba;
+	color:#FFFFFF;
+	text-align:center; 
+	padding-left="10px";
+	padding-top="15px";
+	height="600px";
+}	
+.onglet
+{
+	
+}	
+.onglet_2
+{
+	
+}	
+.onglet_3
+{
+	
+}	
+.conteneur_message
+{
+	border-width:1px;
+	border-style:solid;
+	width:800px;
+	float:left;
+	background-color:white;
+	color:red;
+	text-align:center; 
+	height="450px";
+	border-top="0px"
+}	
+#menu_message
+{
+	border-width:1px;
+	border-style:solid;
+	width:800px;
+	float:left;
+	background-color:orange;
+	color:green;
+	text-align:center; 
+	height="50px";
+	margin-top="5px";
+}	
+.item_menu
+{
+	border-width:1px;
+	border-style:solid;
+	width:199px;
+	float:left;
+	background-color:pink;
+	color:purple;
+	text-align:center; 
+	height="50px";
+}	
+a
+{
+	text-decoration:none;
+}
+a.ouver:hover,a.ouver_3:hover
+{
+	background-color:black;
+	color:white;
+}
+
+a.item_menu:hover
+{
+	background-color:purple;
+	color:pink;
+}
+
+a.ouver_2
+{
+	border-width:1px;
+	border-style:solid;
+	width:80px;
+	float:left;
+	background-color:white;
+	color:red;
+	text-align:center; 
+	height="50px";
+	border-bottom="0px"
+}
+a.ouver
+{
+	border-width:1px;
+	border-style:solid;
+	width:80px;
+	float:left;
+	background-color:orange;
+	color:green;
+	text-align:center; 
+	height="50px";
+}
+a.ouver_3
+{
+	border-width:1px;
+	border-style:solid;
+	width:80px;
+	float:left;
+	background-color:yellow;
+	color:red;
+	text-align:center; 
+	height="50px";
+}
+
+</style>
+
+
+
+
+
+<body>
+	
+<div id="div_1">
+<!-- les onglets des box !  -->
+<a href="#" class="ouver_2"><div > Boite général (8) </div></a>
+<a href="#" class="ouver"><div> message archiver </div></a>
+<a href="#" class="ouver"><div> Au harem de Azull </div></a>
+<a href="#" class="ouver"><div> ma guilde </div></a>
+<a href="#" class="ouver_3"><div> HRP (5) </div></a>
+<a href="#" class="ouver"><div> les 5 demons </div></a>
+<div class="conteneur_message">
+<iframe width="800" height="450" scrolling="yes" frameborder="0" src="./liste_message.html"></iframe>
+	</div>
+<div id="menu_message">
+	<a href="#" class="item_menu"><div> Ecrire un message </div></a>	
+	<a href="#" class="item_menu"><div> Administration de ma messagerie</div></a>
+	<a href="#" class="item_menu"><div>Administration de mes box</div></a>
+	<a href="#" class="item_menu" onclick="javascript:window.close();"><div> Fermer </div></a>
+
+</div>	
+
+</div>
+
+
+
+</body> 
+</htl>

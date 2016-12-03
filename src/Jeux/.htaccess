@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+#RewriteCond %{REQUEST_URI} pma
+RewriteRule ^(.*)$ https://www.arcane-steam.com/$1 [R,L]

@@ -1,0 +1,10 @@
+
+Mise vers v1.3
+------------------------
+
+- Désinstaller la version précédente
+- Installer la version 1.3
+
+La synthaxe a utiliser pour afficher le cryptogramme et pour en controler 
+la saisie est différente des versions précédentes. Voir la documentation 
+en ligne (http://www.cryptographp.com) pour le détail.

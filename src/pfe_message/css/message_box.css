@@ -1,0 +1,282 @@
+<style>
+#div_1
+{
+	border-width:1px;
+	border-style:solid;
+	width:850px;
+	float:left;
+	background-color:#535d63;
+	color:#C0C0C0;
+	text-align:center; 
+	padding-left="10px";
+	padding-top="15px";
+	height="600px";
+	border-color:#000000;
+}	
+.onglet
+{
+	
+}	
+.onglet_2
+{
+	
+}	
+.onglet_3
+{
+	
+}	
+.conteneur_message
+{
+	border-width:1px;
+	border-style:solid;
+	width:800px;
+	float:left;
+	background-color:#C0C0C0;
+	color:#535d63;
+	text-align:center; 
+	height:450px;
+	border-top:0px;
+	border-color:#000000;
+}	
+#menu_message
+{
+	border-width:1px;
+	border-style:solid;
+	width:800px;
+	float:left;
+	background-color:orange;
+	color:green;
+	text-align:center; 
+	height:50px;
+	margin-top:5px;
+	border-color:#FF6600;
+}	
+.item_menu
+{
+	border-width:1px;
+	border-style:solid;
+	width:199px;
+	float:left;
+	background-color:#FFFFFF;
+	color:#535d63;
+	text-align:center; 
+	height:50px;
+	border-color:#FF6600;
+}	
+a
+{
+	text-decoration:none;
+}
+a.ouver:hover,a.ouver_3:hover
+{
+	background-color:#CC6600;
+	color:#0000CC;
+}
+
+a.item_menu:hover
+{
+	background-color:purple;
+	color:pink;
+}
+
+a.ouver_2
+{
+	border-width:1px;
+	border-style:solid;
+	width:80px;
+	float:left;
+	background-color:white;
+	color:red;
+	text-align:center; 
+	height="50px";
+	border-bottom="0px";
+	border-color:#FF6600;
+}
+a.ouver
+{
+	border-width:1px;
+	border-style:solid;
+	width:80px;
+	float:left;
+	background-color:#999999;
+	color:black;
+	text-align:center; 
+	height="50px";
+	border-color:#FF6600;
+}
+a.ouver_3
+{
+	border-width:1px;
+	border-style:solid;
+	width:80px;
+	float:left;
+	background-color:orange;
+	color:red;
+	text-align:center; 
+	height="50px";
+	border-color:#FF6600;
+}
+
+.message_lu
+{
+	border-width:1px;
+	border-style:solid;
+	width:750px;
+	height="25px";
+	float:left;
+	background-color:CCCCCC;
+	color:black;
+	text-align:center; 
+	margin-left="4px";
+	margin-right="3px";
+	border-color:#FF6600;
+}	
+
+.repondre_lu
+{
+	border-width:1px;
+	border-style:solid;
+	width:75px;
+	height="25px";
+	float:left;
+	background-color:CCCCCC;
+	color:black;
+	text-align:center; 
+	border-color:#FF6600;
+}	
+.titre_lu
+{
+	border-width:1px;
+	border-style:solid;
+	width:288;
+	height="25px";
+	float:left;
+	background-color:CCCCCC;
+	color:black;
+	text-align:center; 
+	border-color:#FF6600;
+}	
+.transferé_lu
+{
+	border-width:1px;
+	border-style:solid;
+	width:75px;
+	height="25px";
+	float:left;
+	background-color:CCCCCC;
+	color:black;
+	text-align:center; 
+	border-color:#FF6600;
+}	
+.suprimer_lu
+{
+	border-width:1px;
+	border-style:solid;
+	width:75px;
+	height="25px";
+	float:left;
+	background-color:CCCCCC;
+	color:black;
+	text-align:center; 
+	border-color:#FF6600;
+}
+.expediteur_lu
+{
+	border-width:1px;
+	border-style:solid;
+	width:100px;
+	height="25px";
+	float:left;
+	background-color:#CCCCCC;
+	color:black;
+	text-align:center; 
+	border-color:#FF6600;
+}
+	
+.select
+{
+	border-width:1px;
+	border-style:solid;
+	width:100px;
+	height="25px";
+	float:left;
+	text-align:center; 
+	vetical-align="middle";
+	border-color:#FF6600;
+}
+.taille_select
+{
+		height="30px";
+}
+.first
+{
+		color:red;
+}
+
+.message_lu_non
+{
+	border-width:1px;
+	border-style:solid;
+	width:750px;
+	height="25px";
+	float:left;
+	background-color:black;
+	color:red;
+	text-align:center; 
+	margin-left="4px";
+	margin-right="3px";
+	border-color:#FF6600;
+}	
+
+.repondre_lu_non
+{
+	border-width:1px;
+	border-style:solid;
+	width:75px;
+	height="25px";
+	float:left;
+	background-color:#333333;
+	color:red;
+	text-align:center; 
+	border-color:#FF6600;
+}	
+.titre_lu_non
+{
+	border-width:1px;
+	border-style:solid;
+	width:288;
+	height="25px";
+	float:left;
+	background-color:#333333;
+	color:red;
+	text-align:center; 
+	border-color:#FF6600;
+}	
+
+.expediteur_lu_non
+{
+	border-width:1px;
+	border-style:solid;
+	width:100px;
+	height="25px";
+	float:left;
+	background-color:#333333;
+	color:red;
+	text-align:center; 
+	border-color:#FF6600;
+}
+
+.repondre_non
+{
+	border-width:1px;
+	border-style:solid;
+	width:75px;
+	height="25px";
+	float:left;
+	background-color:red;
+	color:black;
+	text-align:center; 
+	border-color:#FF6600;
+}	
+
+</style>

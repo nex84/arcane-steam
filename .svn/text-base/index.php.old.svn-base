@@ -1,0 +1,68 @@
+<?php
+	$_SESSION['INDEX__']= 1;
+	if (isset($_POST["log"]))
+	{
+		$_SESSION["attempLog"] = 1;
+	}
+	require_once('./includes/constant.inc.php');
+	require_once('./includes/functions.inc.php');
+	require_once('./includes/request.sql.php');
+	//require_once('./includes/secure.php');
+	//En atende de reparation 
+	$_SESSION["id_admin"] = 1;
+	$anti_path = return_anti_path();
+	
+	if (isset($_POST["log"]))
+	{
+		$_POST["pass"] = md5($_POST["pass"]);
+		Secure_identification($_POST["log"], $_POST["pass"]); 
+	} 
+?>
+
+<html>
+	<head>
+		<title>~Arcanis | Plateforme de dev</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+	</head>
+
+	<body>
+		<div id="content">
+		<? if(isset($_SESSION["id_admin"]) && $_SESSION["id_admin"] != 0)
+		{?>
+			<div class="onglets">
+					<div class="ongletcadre"><a href="./src/Marchand/admin_liste_marchand.src.php">Liste des marchand</a></div>
+					<div class="ongletcadre"><a href="./src/Inventaire/admin_liste_objet.src.php">Liste des Objets</a></div>
+					<div class="ongletcadre"><a href="./src/map/admin_world.src.php">Editeur de région</a></div>
+			</div>
+			<? } ?>
+			<div class="cadreaveconglet">
+			<img src="images/autres/under_construction.jpg" class="under">
+				<hr />
+				<? if(!isset($_SESSION["id_admin"]) ||  $_SESSION["id_admin"] == 0)
+					{?>
+				<h1>Vous devez vous identifiez</h1>
+					<form action="" method="post">
+					<table width="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>Login</td>
+							<td><input width="300" type="text" name="log" id="log"></td>
+						</tr>
+						<tr>
+							<td>Password</td>
+							<td><input width="300" type="password" name="pass" id="pass"></td>
+						</tr>
+						<tr>
+							<td colspan="2" align="right"><input type="submit" name="submit" value="Identification"></td>
+						</tr>
+					</table>
+				</form>
+				<hr />
+				<? } ?>
+				<div class="copy">
+					~Arcane-steam &copy; 2007 - <? echo date("Y"); ?> &copy; - PFE <a href="http://www.etna-alternance.net" title="ECOLE DES TECHNOLOGIE NUMERIQUE APLIQUER" />ETNA</a>
+				</div>
+			
+			</div>
+		</div>
+	</body>
+</html>

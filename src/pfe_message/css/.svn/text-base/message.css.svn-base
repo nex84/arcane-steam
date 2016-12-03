@@ -1,0 +1,141 @@
+<style>
+#encadrer
+{
+	width="800px";
+	height="600px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#b42eba;
+	color:#FFFFFF;
+	text-align:center; 
+	
+}
+#envoyer_conteneur
+{
+	width="800px";
+	height="50px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#b42eba;
+	color:#FFFFFF;
+	text-align:center; 
+	
+}
+
+#message
+{
+	width="599";
+	height="500px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#b4233a;
+	color:#FFFFFF;
+	
+}
+#barre_action
+{
+	width="199";
+	height="500px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:yellow;
+	color:red;
+	text-align:center; 
+	
+}
+
+
+.titre
+{
+	width="800px";
+	height="50px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#23012a;
+	color:#FFFFFF;
+	text-align:center; 
+	padding-top="7px";
+	
+}
+
+.envoyer_menu
+{
+	width="200px";
+	height="50px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:pink;
+	color:purple;
+	text-align:center; 
+	padding-top="7px";
+	
+}
+.envoyer_liste_inactif
+{
+	width="199px";
+	height="50px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#cccbb2;
+	color:black;
+	text-align:center; 
+	padding-top="7px";
+	float:left;
+	
+}
+.envoyer_liste
+{
+	width="199px";
+	height="50px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#aaabbb;
+	color:purple;
+	text-align:center; 
+	padding-top="7px";
+	float:left;
+	
+}
+.barre_item
+{
+	width="197px";
+	height="100px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:yellow;
+	color:#FF9900;
+	text-align:center; 
+}
+
+
+
+
+a
+{
+	text-decoration:none;
+}
+#div_general
+{
+	width="550px";
+	color:#FFFFFF;
+	padding-top="15px";
+	background-color:#535d63;
+	color:#C0C0C0;
+
+}
+.cbody
+{
+	background-color:#535d63;
+}
+
+
+</style>

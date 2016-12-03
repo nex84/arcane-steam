@@ -1,0 +1,92 @@
+<style>
+#encadrer
+{
+	width="800px";
+	height="600px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#333334;
+	color:#FFFFFF;
+	text-align:center;
+	border-color:#FF6600;
+	
+}
+.edtier_box
+{
+	width="200px";
+	height="48px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#333334;
+	color:#FFFFFF;
+	text-align:center;
+	border-color:#FF6600;
+}
+
+.delete_box
+{
+	width="196px";
+	height="48px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#333334;
+	color:#FFFFFF;
+	text-align:center; 
+	border-color:#FF6600;
+}
+
+.nom_box
+{
+	border-color:c0c0c0;
+	width="400px";
+	height="48px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#333334;
+	color:#FFFFFF;
+	text-align:center; 
+	border-color:#FF6600;
+}
+
+.titre_box
+{
+	width="800px";
+	height="600px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#333334;
+	color:#FFFFFF;
+	text-align:center;
+	border-color:#FF6600;
+}
+
+.creation
+{
+	width="800px";
+	height="50";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#333334;
+	color:#FFFFFF;
+	text-align:center;
+	border-color:#FF6600;
+}
+.englobeur
+{
+	width="800px";
+	height="50px";
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	background-color:#333334;
+	color:#FFFFFF;
+	text-align:center;
+	border-color:#FF6600;
+}
+</style>
