@@ -1,0 +1,20 @@
+---
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/arcane-steam.com/www/
+permissions:
+  - object: /var/www/html/arcane-steam.com/www/
+    owner: ec2-user
+    group: ec2-user
+    mode: 755
+    type:
+      - directory
+  - object: /var/www/html/arcane-steam.com/www/
+    owner: ec2-user
+    group: ec2-user
+    mode: 644
+    type:
+      - file
+timeout: 180
