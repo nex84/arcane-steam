@@ -4,6 +4,8 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/arcane-steam.com/www/
+  - source: /apache_config/arcane-steam.com.conf
+    destination: /etc/httpd/conf.d/
 permissions:
   - object: /var/www/html/arcane-steam.com/www/
     owner: ec2-user
@@ -17,4 +19,21 @@ permissions:
     mode: 644
     type:
       - file
+  - object: /etc/httpd/conf.d/
+    owner: root
+    group: root
+    mode: 755
+    type:
+      - directory
+  - object: /etc/httpd/conf.d/arcane-steam.com.conf
+    owner: root
+    group: root
+    mode: 644
+    type:
+      - file
+hooks:
+  BeforeInstall:
+    - location: cleanup.sh
+  AfterInstall:
+    - location: PostInstallvhosts.sh
 timeout: 180
