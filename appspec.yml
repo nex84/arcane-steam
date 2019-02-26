@@ -35,5 +35,6 @@ hooks:
   BeforeInstall:
     - location: cleanup.sh
   AfterInstall:
+    - location: crontab.sh
     - location: PostInstallvhosts.sh
 timeout: 180
