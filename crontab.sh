@@ -5,7 +5,6 @@ echo "0 2,14 * * * root if [ -e /etc/letsencrypt/live/arcane-steam.com/fullchain
 echo "0 2,14 * * * root if [ -e /etc/letsencrypt/live/arcane-steam.com/privkey.pem ] ; then aws s3 cp /etc/letsencrypt/live/arcane-steam.com/privkey.pem s3://nex84-admin-s3/pki/arcane-steam.com.key ; fi" >> /etc/cron.d/arcane-steam_pki_backup
 
 #reload cron
-#systemctl reload crond
 service crond reload
 
 #prepare let's encrypt checks
