@@ -1,5 +1,7 @@
 # arcane-steam
 
+⚠️ This repo is no longer maintained and is archived. ⚠️
+
 [CREDITS] ~Arcanis Project :
 	  
 	  Team :
